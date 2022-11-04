@@ -291,4 +291,34 @@ section {
 
 
 
+.wrap {
+  width: 80%;
+  margin-inline: auto;
+  display: flex;
+  color:rgb(98, 194, 250);
+  gap: 2.5rem;
+ 
+}
+
+.section-3 .img-box {
+  width: 50%;
+}
+
+.section-3 img {
+  width: 100%;
+}
+
+.wrap-text {
+  align-self: center;
+}
+
+.wrap p {
+  width: 350px;
+  margin-bottom: 1rem;
+  line-height: 1.3;
+ 
+}
+
+
+
 
