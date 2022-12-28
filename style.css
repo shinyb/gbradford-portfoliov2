@@ -71,8 +71,8 @@ header {
   font-size: 4em;
   transform-origin: left;
   transform-style: preserve-3d;
-  border-top: solid 4px rgb(133, 125, 125);
-  border-bottom: 4px rgb(133, 125, 125) solid;
+  border-top: solid 4px var(--alt-background);
+  border-bottom: 4px var(--alt-background) solid;
   box-shadow: 0px 0px 20px rgb(98, 194, 250);
   padding: 3px 15px;
   transform: rotateY(calc(var(--i) * calc(360deg / 25))) translateZ(200px);
@@ -103,7 +103,7 @@ span.space {
 
 .typewriter h1 {
   margin: 0 auto;
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: #fff;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .20em solid white; /* The typwriter cursor */
